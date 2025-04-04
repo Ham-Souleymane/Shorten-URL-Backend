@@ -20,7 +20,7 @@ class shortUrlDb{
           data:{
               original: originalUrl,
               code: code,
-              shortenUrl: `http://localhost:3000/${code}`,
+              shortenUrl: `https://shorten-url-backend-jg04.onrender.com/${code}`,
               numOfClicked: 0
 
           }

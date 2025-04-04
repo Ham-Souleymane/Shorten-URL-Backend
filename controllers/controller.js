@@ -46,7 +46,7 @@ const createUrl = async (req, res) => {
         const newUrl = await shortUrlDb.createUrl(originalUrl, shortcode);
 
         res.json({
-            shortUrl: `http://localhost:3000/${newUrl.code}`
+            shortUrl: `https://shorten-url-backend-jg04.onrender.com/${newUrl.code}`
         });
     } catch (error) {
         console.error('Error creating short URL:', error);
