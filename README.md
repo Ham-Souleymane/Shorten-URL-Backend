@@ -1,6 +1,6 @@
 # 🔗 URL Shortener
 
-![URL Shortener Banner](https://api.placeholder.com/1200/300)
+
 
 > Transform lengthy URLs into concise, shareable links with powerful tracking capabilities.
 
@@ -24,7 +24,7 @@ src/
 ├── controllers/  # Business logic
 ├── models/       # Data models and database interaction
 ├── routes/       # API endpoints
-└── server.js     # Application entry point
+└── app.js     # Application entry point
 ```
 
 ### 🛠️ Tech Stack
@@ -48,8 +48,8 @@ src/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/url-shortener.git
-   cd url-shortener
+   git https://github.com/Ham-Souleymane/Shorten-URL-Backend.git
+   cd Shorten-URL-Backend
    ```
 
 2. Install dependencies
@@ -70,7 +70,7 @@ src/
 
 5. Start the server
    ```bash
-   npm start
+   npm run start
    ```
 
 ## 🌐 API Reference
